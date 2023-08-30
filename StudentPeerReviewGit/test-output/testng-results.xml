@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="35" passed="35">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="422879" started-at="2023-08-30T04:09:02Z" finished-at="2023-08-30T04:16:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="422879" started-at="2023-08-30T04:09:02Z" finished-at="2023-08-30T04:16:05Z">
+      <class name="QuestionBankofIndividualTeacherTest.ImportQuestionTest">
+        <test-method status="PASS" signature="setup1()[pri:0, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="setup1" is-config="true" duration-ms="21939" started-at="2023-08-30T09:39:03Z" finished-at="2023-08-30T09:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method status="PASS" signature="TCSPR1600201()[pri:1, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600201" duration-ms="30936" started-at="2023-08-30T09:39:25Z" finished-at="2023-08-30T09:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600201 -->
+        <test-method status="PASS" signature="TCSPR1600202()[pri:2, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600202" duration-ms="17077" started-at="2023-08-30T09:39:56Z" finished-at="2023-08-30T09:40:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600202 -->
+        <test-method status="PASS" signature="TCSPR1600203()[pri:3, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600203" duration-ms="2301" started-at="2023-08-30T09:40:13Z" finished-at="2023-08-30T09:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600203 -->
+        <test-method status="PASS" signature="TCSPR1600204()[pri:4, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600204" duration-ms="16309" started-at="2023-08-30T09:40:15Z" finished-at="2023-08-30T09:40:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600204 -->
+        <test-method status="PASS" signature="TCSPR1600205()[pri:5, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600205" duration-ms="6394" started-at="2023-08-30T09:40:31Z" finished-at="2023-08-30T09:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600205 -->
+        <test-method status="PASS" signature="TCSPR1600206()[pri:6, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600206" duration-ms="16467" started-at="2023-08-30T09:40:38Z" finished-at="2023-08-30T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600206 -->
+        <test-method status="PASS" signature="TCSPR1600207()[pri:7, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600207" duration-ms="6797" started-at="2023-08-30T09:40:54Z" finished-at="2023-08-30T09:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600207 -->
+        <test-method status="PASS" signature="TCSPR1600208()[pri:8, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600208" duration-ms="10612" started-at="2023-08-30T09:41:01Z" finished-at="2023-08-30T09:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600208 -->
+        <test-method status="PASS" signature="TCSPR1600209()[pri:9, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600209" duration-ms="13637" started-at="2023-08-30T09:41:12Z" finished-at="2023-08-30T09:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600209 -->
+        <test-method status="PASS" signature="TCSPR1600210()[pri:10, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600210" duration-ms="3559" started-at="2023-08-30T09:41:25Z" finished-at="2023-08-30T09:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600210 -->
+        <test-method status="PASS" signature="TCSPR1600212()[pri:12, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600212" duration-ms="1605" started-at="2023-08-30T09:41:29Z" finished-at="2023-08-30T09:41:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600212 -->
+        <test-method status="PASS" signature="TCSPR1600213()[pri:13, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600213" duration-ms="2553" started-at="2023-08-30T09:41:30Z" finished-at="2023-08-30T09:41:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600213 -->
+        <test-method status="PASS" signature="TCSPR1600214()[pri:14, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600214" duration-ms="117" started-at="2023-08-30T09:41:33Z" finished-at="2023-08-30T09:41:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600214 -->
+        <test-method status="PASS" signature="TCSPR1600215()[pri:15, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600215" duration-ms="2578" started-at="2023-08-30T09:41:33Z" finished-at="2023-08-30T09:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600215 -->
+        <test-method status="PASS" signature="TCSPR1600216()[pri:16, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600216" duration-ms="7643" started-at="2023-08-30T09:41:36Z" finished-at="2023-08-30T09:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600216 -->
+        <test-method status="PASS" signature="TCSPR1600217()[pri:17, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600217" duration-ms="18502" started-at="2023-08-30T09:41:43Z" finished-at="2023-08-30T09:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600217 -->
+        <test-method status="PASS" signature="TCSPR1600218()[pri:18, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600218" duration-ms="10700" started-at="2023-08-30T09:42:02Z" finished-at="2023-08-30T09:42:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600218 -->
+        <test-method status="PASS" signature="TCSPR1600219()[pri:19, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600219" duration-ms="9780" started-at="2023-08-30T09:42:13Z" finished-at="2023-08-30T09:42:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600219 -->
+        <test-method status="PASS" signature="TCSPR1600220()[pri:20, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600220" duration-ms="4106" started-at="2023-08-30T09:42:22Z" finished-at="2023-08-30T09:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600220 -->
+        <test-method status="PASS" signature="TCSPR1600221()[pri:21, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600221" duration-ms="18727" started-at="2023-08-30T09:42:26Z" finished-at="2023-08-30T09:42:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600221 -->
+        <test-method status="PASS" signature="TCSPR1600222()[pri:22, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600222" duration-ms="18661" started-at="2023-08-30T09:42:45Z" finished-at="2023-08-30T09:43:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600222 -->
+        <test-method status="PASS" signature="TCSPR1600223()[pri:23, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600223" duration-ms="5373" started-at="2023-08-30T09:43:04Z" finished-at="2023-08-30T09:43:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600223 -->
+        <test-method status="PASS" signature="TCSPR1600224()[pri:24, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600224" duration-ms="9513" started-at="2023-08-30T09:43:09Z" finished-at="2023-08-30T09:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600224 -->
+        <test-method status="PASS" signature="TCSPR1600225()[pri:25, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600225" duration-ms="611" started-at="2023-08-30T09:43:19Z" finished-at="2023-08-30T09:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600225 -->
+        <test-method status="PASS" signature="TCSPR1600226()[pri:26, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600226" duration-ms="3433" started-at="2023-08-30T09:43:19Z" finished-at="2023-08-30T09:43:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600226 -->
+        <test-method status="PASS" signature="TCSPR1600227()[pri:27, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600227" duration-ms="22373" started-at="2023-08-30T09:43:23Z" finished-at="2023-08-30T09:43:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600227 -->
+        <test-method status="PASS" signature="TCSPR1600228()[pri:28, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600228" duration-ms="42616" started-at="2023-08-30T09:43:45Z" finished-at="2023-08-30T09:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600228 -->
+        <test-method status="PASS" signature="TCSPR1600229()[pri:29, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600229" duration-ms="6976" started-at="2023-08-30T09:44:28Z" finished-at="2023-08-30T09:44:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600229 -->
+        <test-method status="PASS" signature="TCSPR1600230()[pri:30, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600230" duration-ms="4758" started-at="2023-08-30T09:44:35Z" finished-at="2023-08-30T09:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600230 -->
+        <test-method status="PASS" signature="TCSPR1600231()[pri:31, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600231" duration-ms="12691" started-at="2023-08-30T09:44:40Z" finished-at="2023-08-30T09:44:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600231 -->
+        <test-method status="PASS" signature="TCSPR1600232()[pri:32, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600232" duration-ms="18369" started-at="2023-08-30T09:44:52Z" finished-at="2023-08-30T09:45:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600232 -->
+        <test-method status="PASS" signature="TCSPR1600233()[pri:33, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600233" duration-ms="18969" started-at="2023-08-30T09:45:11Z" finished-at="2023-08-30T09:45:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600233 -->
+        <test-method status="PASS" signature="TCSPR1600234()[pri:34, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600234" duration-ms="10439" started-at="2023-08-30T09:45:30Z" finished-at="2023-08-30T09:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600234 -->
+        <test-method status="PASS" signature="TCSPR1600235()[pri:35, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600235" duration-ms="22919" started-at="2023-08-30T09:45:40Z" finished-at="2023-08-30T09:46:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600235 -->
+        <test-method status="PASS" signature="TCSPR1600236()[pri:36, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="TCSPR1600236" duration-ms="1244" started-at="2023-08-30T09:46:03Z" finished-at="2023-08-30T09:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCSPR1600236 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:QuestionBankofIndividualTeacherTest.ImportQuestionTest@61d6015a]" name="tearDown" is-config="true" duration-ms="1159" started-at="2023-08-30T09:46:04Z" finished-at="2023-08-30T09:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- QuestionBankofIndividualTeacherTest.ImportQuestionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
