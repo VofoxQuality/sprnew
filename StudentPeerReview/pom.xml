@@ -1,0 +1,181 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>SPRautomation</groupId>
+	<artifactId>StudentPeerReview</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>StudentPeerReview</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.11.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>3.11.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.14.3</version>
+			<scope>compile</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.directory.studio/org.apache.commons.io -->
+		<dependency>
+			<groupId>org.apache.directory.studio</groupId>
+			<artifactId>org.apache.commons.io</artifactId>
+			<version>2.4</version>
+		</dependency>
+		<!--Test reporting library - extent 3.X -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>3.1.5</version>
+		</dependency>
+
+
+		<!-- To handle excel files -->
+		<dependency>
+			<groupId>com.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>3.3</version>
+		</dependency>
+
+		<!-- To handle excel files -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.15</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.15</version>
+		</dependency>
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>6.1.0.jre8</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.16</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.22</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<!-- Compiler plug-in -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+			<!-- Below plug-in is used to execute tests -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.18.1</version>
+				<configuration>
+					<suiteXmlFiles>
+						<!-- TestNG suite XML files -->
+
+						<!-- Phase 1 Scripts-Individual Teachers and Students -->
+						<suiteXmlFile>SPR0001-LandingPage.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0002-Signup.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0003-Login.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0004-ForgotPassword.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0005-ChangePassword.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0006-CreateNewCourse.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0007-ViewEditCourse.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0008-CourseRoster.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0009-StudentRequest.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0010-AccountSettingsandDeleteAccount.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0011-StudentProfileBasicDetails.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0012-StudentAcceptCourse.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0013-RemoveStudentFromCourse.xml</suiteXmlFile>
+						<!-- suiteXmlFile>SPR0014-AddStudentFromMyStudentList.xml</suiteXmlFile> -->
+						<suiteXmlFile>SPR0015-StudentRequestApproveDecline.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0016-StudentCourseInvitesInvalid.xml</suiteXmlFile>
+
+						<!-- 2.1 Feature Create New Assessment -->
+						<suiteXmlFile>SPR0017-BasicDetailsPageAssessment.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0018-BasicDetailsPageCourseandEditor.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0019-QuestionPageBasics.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0023-PeerReviewBasicDetails.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0026-ScheduleConfigureDefault.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0027-SummaryBasics.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0025-SchedulePageBasics.xml</suiteXmlFile>
+						<!--<suiteXmlFile>SPR0020-ClickableRubric.xml</suiteXmlFile> -->
+						<!--<suiteXmlFile>SPR0021-MultipleQuestionAdd.xml</suiteXmlFile> -->
+						<!--<suiteXmlFile>SPR0022-QuestionEditorAndMultipleCategoryAdd.xml</suiteXmlFile> -->
+						<!--<suiteXmlFile>SPR0024-PeerReviewPageStudentDetails.xml</suiteXmlFile> -->
+						<!--<suiteXmlFile>SPR0028-SummaryQuestions.xml</suiteXmlFile> -->
+						<!--<suiteXmlFile>SPR0029-SummaryScheduleTest.xml</suiteXmlFile> -->
+						<!---><suiteXmlFile>SPR0030-SummaryAssessmentInfoandInstruction.xml</suiteXmlFile> -->
+						<!--<suiteXmlFile>SPR0031-AssessmentPublishPopup.xml</suiteXmlFile> -->
+						<!--<suiteXmlFile>SPR0032-SummaryQuestionClickableRubric.xml</suiteXmlFile> -->
+
+						<!-- Test Window of Individual Student -->
+						<!--<suiteXmlFile>SPR0045-StudentAssessmentInfoandInstruction.xml</suiteXmlFile>-->
+						<suiteXmlFile>SPR0046-TestWindowWizard.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0047-Answerwindow.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0048-AssessmentSubmitAndTeacherAssessmentStatusPopup.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0049-ModifyWizardSection.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0050-ModifySubmittedAnswers.xml</suiteXmlFile>
+
+						<!-- Peer Review Window of Individual Student -->
+						<suiteXmlFile>SPR0052-PeerReviewWindowWizardPanel.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0057-ModifyReviewWindow.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0055-ReviewSubmitAndTeacherAssessmentStatusPopUP.xml</suiteXmlFile>
+
+						<!-- Result window of Individual Teacher -->
+						<suiteXmlFile>SPR0059-StudentResultWindowBasics.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0060-StudentAnswerSheetsBasics.xml</suiteXmlFile>
+
+						<!-- Result window of Individual Teachers -->
+						<suiteXmlFile>SPR0061-TeacherAutomaticResultPeerreviewcomplete.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0062-TeacherAutomaticResultPeerreviewIncomplete.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0065-TeacherManualReconsiderationEnabledreviewcomplete.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0066-TeacherManualReconsiderationEnabledReviewIncomplete.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0063-TeacherManualResultPeerreviewcomplete.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0064-TeacherManualResultPeerreviewIncomplete.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0067-TeacherReconsiderationWindow.xml</suiteXmlFile>
+
+						<!-- Library features -->
+						<suiteXmlFile>SPR0069-QuestionBank.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0070-ImportQuestionfromQuestionBank.xml</suiteXmlFile>
+						<!-- Pending scenarios -->
+						<suiteXmlFile>SPR0071-AddorRemoveStudentFromAssessment.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0072-TeacherAccountDelete.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0073-AccountDeleteStudent.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0074-CourseandAssessmentInActive.xml</suiteXmlFile>
+						<suiteXmlFile>SPR0075-CourseandAssessmentActive.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
